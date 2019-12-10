@@ -8,7 +8,7 @@ Aditionally it also keeps the callback behavior for the new firebase messaging s
 
 Via [npm][1]:
 
-    $ npm install fcm-node
+    $ npm install fcm-node-eheikkinen
 
 ## Usage
 
@@ -137,8 +137,7 @@ fcm.unsubscribeToTopic([ 'device_token_1', 'device_token_2' ], 'some_topic_name'
 * On **iOS**, set **content_available** to **true** to receive data while your app is in background. (As seen in [FCM Docs][8])  
 
 ## Credits
-
-Extended by [Leonardo Pereira (me)][3].
+Extended by [Leonardo Pereira][3].
 Based on the great work on [fcm-push][7] by [Rasmunandar Rustam][4] cloned and modified from there, which in its turn, was cloned and modified from [Changshin Lee][5]'s [node-gcm][5]
 
 ## License
@@ -164,6 +163,7 @@ Based on the great work on [fcm-push][7] by [Rasmunandar Rustam][4] cloned and m
 [17]: https://github.com/cesardmoro
 
 ## Changelog
+1.5.3 - Added proxy support to new FCM API with private key as json (instead of string server key)
 1.5.2 - fixed bug whre send's callback were called twice - *Thanks to [@cesardmoro][17] for this fix*
 1.3.0 - Added proxy capabilities - *Thanks to [@crackjack][16] for this feature*
 1.2.0 - Added topic subscriptions management for web clients - *Thanks to [@sofiapm][15] for this feature*   

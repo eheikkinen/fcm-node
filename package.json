@@ -1,11 +1,11 @@
 {
-  "name": "fcm-node",
-  "version": "1.5.2",
+  "name": "fcm-node-eheikkinen",
+  "version": "1.5.3",
   "description": "A Node.JS simple interface to Google's Firebase Cloud Messaging (FCM). Supports both android and iOS, including topic messages, and parallel calls.\nAditionally it also keeps the callback behavior for the new firebase messaging service.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jlcvp/fcm-node.git"
+    "url": "git+https://github.com/eheikkinen/fcm-node-eheikkinen.git"
   },
   "keywords": [
     "fcm",
@@ -21,12 +21,12 @@
     "topic message",
     "parallel send"
   ],
-  "author": "Leonardo Pereira <jlcvp@cin.ufpe.br>",
+  "author": "Esa Heikkinen <esa.heikkinen@outlook.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jlcvp/fcm-node/issues"
+    "url": "https://github.com/eheikkinen/fcm-node-eheikkinen/issues"
   },
-  "homepage": "https://github.com/jlcvp/fcm-node",
+  "homepage": "https://github.com/eheikkinen/fcm-node-eheikkinen",
   "dependencies": {
     "firebase-admin": "^7.1.0",
     "https-proxy-agent": "^2.2.1",
